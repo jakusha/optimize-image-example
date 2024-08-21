@@ -1,4 +1,4 @@
-import { Platform, SafeAreaView, StyleSheet, View } from "react-native";
+import { Platform, SafeAreaView, StyleSheet, View } from "react-native"
 
 export default function App() {
   return (
