@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { View, TextInput, StyleSheet } from "react-native";
+
 const SearchInput = () => {
   const [search, setSearch] = useState("");
   return (
