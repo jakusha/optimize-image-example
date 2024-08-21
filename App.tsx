@@ -1,10 +1,9 @@
-import { Platform, SafeAreaView, StyleSheet, Text, View } from "react-native";
+import { Platform, SafeAreaView, StyleSheet, View } from "react-native";
 
 export default function App() {
   return (
     <SafeAreaView style={styles.safeAreaContainer}>
       <View style={styles.container}>
-        <Text>App introduction</Text>
       </View>
     </SafeAreaView>
   );
