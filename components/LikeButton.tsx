@@ -1,7 +1,6 @@
-import { View, Alert, Text, StyleSheet, Pressable } from "react-native";
+import {  Alert, Text, StyleSheet, Pressable } from "react-native";
 
 const LikeButton = () => {
-
   const buttonHandler = () =>
     Alert.alert("Hurray!", "Like button clicked!", [
       {
@@ -12,11 +11,9 @@ const LikeButton = () => {
     ]);
 
   return (
-    <View style={styles.buttonContainer}>
-      <Pressable onPress={buttonHandler}>
-        <Text style={styles.buttonText}>click me</Text>
-      </Pressable>
-    </View>
+    <Pressable style={styles.buttonContainer} onPress={buttonHandler}> 
+      <Text style={styles.buttonText}>click me</Text>
+    </Pressable>
   );
 };
 
@@ -33,7 +30,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",
-    gap: 8
+    gap: 8,
   },
   buttonText: {
     color: "#ffffff",
